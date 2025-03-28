@@ -3,14 +3,14 @@
 This is a simple C++ project that demonstrates the use of classes, dynamic memory allocation, and namespaces. The program prints the characters of the string "Hello World" one by one, with a delay between each character.
 
 ## Project Structure
-   ├── CMakeLists.txt
-   ├── helloworld
-   │   ├── inc
-   │   │   └── helloworld.h
-   │   └── src
-   │       └── helloworld.cpp
-   ├── main.cpp
-   └── README.md
+├── CMakeLists.txt  
+├── helloworld  
+│   ├── inc  
+│   │   └── helloworld.h  
+│   └── src  
+│       └── helloworld.cpp  
+├── main.cpp  
+└── README.md  
 
 ## Features
 
