@@ -1,8 +1,8 @@
 #include "helloworld.h"
 
 // Constructor implementation
-PrintHelloWorld::PrintHelloWorld()
-    : _to_print("Hello World")  // Initialize _to_print
+PrintHelloWorld::PrintHelloWorld(char* input_str)
+    : _to_print(input_str)  // Initialize _to_print
 {
     _found_str = (char*)calloc(strlen(_to_print) + 1, sizeof(char));
     for (int i = 0; i < 255; i++)

@@ -10,7 +10,7 @@ class PrintHelloWorld
 {
 public:
     // Constructor
-    PrintHelloWorld();
+    PrintHelloWorld(char* str = nullptr);
 
     // Destructor
     ~PrintHelloWorld();
